@@ -161,8 +161,6 @@ grep "millionth" data.txt
 
 This avoids spawning an additional process and directly instructs `grep` to read from the file.
 
-Both approaches produce identical output, but the second is considered cleaner and more efficient in Unix philosophy.
-
 ---
 
 ## Final Password
