@@ -15,8 +15,6 @@
 - [Step-by-Step Walkthrough](#step-by-step-walkthrough)
 - [Command Breakdown & Functional Analysis](#command-breakdown--functional-analysis)
 - [Optimised Alternative Approach](#optimised-alternative-approach)
-- [Final Password](#final-password)
-- [Key Takeaways](#key-takeaways)
 
 ---
 
@@ -174,15 +172,5 @@ The password for **Bandit Level 8** is:
 ```
 dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 ```
-
----
-
-## Key Takeaways
-
-- Efficient text filtering is a fundamental cybersecurity skill.
-- `grep` is one of the most powerful and commonly used tools in Linux environments.
-- Understanding pipelines (`|`) enables modular and readable command chaining.
-- Avoid unnecessary use of `cat` when a command can read directly from a file.
-- Even simple challenges reinforce essential real-world command-line techniques.
 
 ---
