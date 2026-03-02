@@ -1,13 +1,10 @@
-# Bandit Level 7 → Level 8 | OverTheWire Write-Up
+# Bandit Level 7 → Level 8 | OverTheWire
 
-> A practical exploration of efficient text filtering, Linux pipelines, and command-line data extraction.
+> It´s just a simple problem.
 
-**Date:** 1 March 2026  
 **Platform:** OverTheWire  
 **Challenge:** Bandit Level 7  
 **Category:** Linux / Text Processing  
-**Difficulty:** Easy (3/10)  
-**Estimated Solving Time:** ~5 minutes  
 
 ---
 
@@ -25,19 +22,13 @@
 
 ## Overview
 
-In cybersecurity engineering, the ability to extract specific information from large datasets is essential. Whether analysing server logs (e.g. Apache or Nginx), reviewing application output, or searching for exposed credentials, text-processing tools are indispensable.
-
-This level of Bandit simulates a realistic scenario:
-
 > A specific piece of information (the password) is hidden within a large file, and only a keyword clue is provided.
-
-To solve it efficiently, we rely on standard Linux command-line utilities, particularly `grep`, combined with shell pipelines.
 
 ---
 
 ## Challenge Description
 
-The goal is to retrieve the password for **Bandit Level 8**.
+The goal is to retrieve the password for the **Level 8**.
 
 ### Provided Information
 
@@ -195,13 +186,3 @@ dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 - Even simple challenges reinforce essential real-world command-line techniques.
 
 ---
-
-### Closing Thoughts
-
-While this level is relatively straightforward, it reinforces an important mindset:
-
-> Never process data manually when automation can do it faster, cleaner, and more reliably.
-
-Mastery of small utilities like `grep`, `awk`, and `sed` forms the backbone of efficient system analysis and security operations.
-
-Onwards to Level 8.
